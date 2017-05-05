@@ -19,3 +19,309 @@ h3
 {
 	max-width: 60%;
 }
+
+
+
+/*media query start*/
+
+
+#fixcenter
+{
+	margin: auto;
+}
+
+
+#margin_copyright_down
+{
+	margin-top: 20%;
+}
+
+
+@media (max-width: 480px)
+{
+#mycarousel .item 
+{height: 200px; margin: auto}
+
+#slide1
+{
+	background: url('images/header1.jpg') top center no-repeat ;
+	width: 400px;
+}
+
+
+#slide2
+{
+	background: url('images/header2.jpg')top center no-repeat ;
+	width: 400px;
+}
+
+#slide3
+{
+	background: url('images/header3.jpg')top center no-repeat ;
+	width: 400px;
+}
+
+}
+
+/* <img src = "http://placehold.it/1200x500">*/
+
+
+@media (max-width: 768px)
+{
+	#mycarousel .item {height: 200px;margin: auto}
+
+#slide1
+{
+	background: url('images/house1.jpg')top center no-repeat ;
+	width: 400px;
+}
+
+
+#slide2
+{
+	background: url('images/house2.jpg')top center no-repeat ;
+	width: 400px;
+}
+
+#slide3
+{
+	background: url('images/house3.jpg')top center no-repeat ;
+}
+}
+
+@media (max-width: 1200px)
+{
+	#mycarousel .item {height: 200px;}
+
+#slide1
+{
+	background: url('images/house1.jpg')top center no-repeat ;
+}
+
+
+#slide2
+{
+	background: url('images/house2.jpg')top center no-repeat ;
+}
+
+#slide3
+{
+	background: url('images/house3.jpg')top center no-repeat ;
+}
+}
+#pad_79
+{
+	padding-top: 5%;
+}
+
+
+#pad_80
+{
+	padding-left: 4%;
+	/*width: 90%;*/
+}
+#pad_81
+{
+	padding-right: 4%;
+}
+
+
+#SearchInput
+{
+	width: 200px;
+
+}
+
+#align_center
+{
+	align : center;
+}
+
+
+.centerall
+{
+	text-align: center;
+	font-size :35px;
+	font-family: 'Peddana', serif;
+	/*width: 0%;*/
+}
+
+
+.h2
+{
+	font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+#property_footer
+{
+	background-color: blue;
+}
+
+#widthfromtop
+
+{
+	
+}
+
+.alert
+{
+	margin-top: 20px;
+	display: none;
+}
+
+
+#widthchange
+{
+	display: block;
+    max-width: 100%;
+    margin-top: 6%;
+    height:80%;
+    align-items: center;
+
+}
+
+.footer1{
+	background-color: #eee;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#padding_footer
+
+{
+	text-align: right;
+/*	margin-right: 20%;
+	margin-left: 20%*/;
+}
+
+#rowcol1
+{
+	width: 100%;
+	height: 200px;
+	/*padding-bottom: 50px;*/
+}
+#rowcol2
+{
+	width: 100%;
+	height: 200px;
+	/*padding-bottom: 50px;*/
+}
+#rowcol3
+{
+	width: 100%;
+	height: 200px;
+	/*padding-bottom: 50px;*/
+}
+
+#pad_below1
+{
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+
+#pad_below2
+{
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+#pad_below3
+{
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+#pad_below4
+{
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+#pad_below5
+{
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+#column_large
+{
+
+	height: 400px;
+	width: 100%;
+}
+
+#column_large1
+{
+
+	height: 400px;
+	width: 100%;
+}
+
+#column_large2
+{
+
+	height: 400px;
+	width: 100%;
+}
+
+
+
+
+#increase margin
+{
+	margin-top: 200px;
+	align-items: center;
+	text-align: center;
+	margin-left: 30%;
+}
+
+.row
+{
+	margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col-xs-4 {
+    width: 33.33333333%;
+}
+
+.mainContent .contentIconBg {
+    background: url(../images/orangBg.png) no-repeat;
+    height: 68px;
+    margin: 0 auto 25px;
+    position: static;
+    width: 68px;
+}
+#Style1
+{
+	height: 57px;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+.pinBgtop {
+    background-color: #2567b1;
+    height: 67px;
+    border-radius: 67px 67px 0 0;
+    -moz-border-radius: 67px 67px 0 0;
+    -webkit-border-radius: 67px 67px 0 0;
+    left: 50%;
+    margin-left: -67px;
+    top: -67px;
+    padding: 15px 37px 6px 37px;
+    position: absolute;
+    text-align: center;
+    width: 134px;
+}
+
+footer
+{
+	background-color: #e6e8ed;
+}
